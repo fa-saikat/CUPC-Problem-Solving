@@ -10,7 +10,7 @@ Sample Input
 7  30  41  14  39  42
 
 */
-
+// n> garbage value
 #include<stdio.h>
 int main()
 {

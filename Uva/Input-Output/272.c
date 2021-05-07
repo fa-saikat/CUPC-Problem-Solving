@@ -5,7 +5,8 @@ Sample Input:
 "To be or not to be," quoth the Bard, "thatis the question".The programming contestant replied: "I must disagree.To `C' or not to `C', that is The Question!"
 
 */
-
+// input error
+/*
 #include<stdio.h>
 int main()
 {
@@ -15,6 +16,22 @@ int main()
     {
         printf("%s\n", str);
         break;
+    }
+
+
+    return 0;
+}
+*/
+
+#include<stdio.h>
+int main()
+{
+    char str[200] ;
+
+    while(scanf("%[^\n]s", &str)!=EOF)
+    {
+        printf("%s\n", str);
+        getchar(); // to prevent exexution of infinite loop due to the newline.
     }
 
 

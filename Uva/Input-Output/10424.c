@@ -9,17 +9,28 @@ India
 USA
 USSR
 */
-
+// NULL char
+/*
 #include<stdio.h>
 int main()
 {
-    int name1[25], name2[25];
+    char name1[25], name2[25], ch;
 
-    while (scanf("%s %s", &name1, &name2)!=EOF)
+    while (scanf("%s %s %c", &name1, &name2, &ch)!=EOF)
+    {
+        printf("%s %s\n", name1, name2);
+//        scanf("%*c" );
+    }
+*/
+#include<stdio.h>
+int main()
+{
+    char name1[26], name2[26];
+
+    while(scanf("%s%s", &name1, &name2)!=EOF)
     {
         printf("%s %s\n", name1, name2);
     }
-
 
     return 0;
 }

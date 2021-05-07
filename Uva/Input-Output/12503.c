@@ -7,11 +7,11 @@ The first line contains the number of test cases T (T<=100). Each test case begi
 #include <stdio.h>
 int main()
 {
-    int T, n, i;
+    int t, n, i;
     char x[100][100];
-    scanf("%d", &T);
+    scanf("%d", &t);
 
-    while (T--)
+    while (t--)
     {
         scanf("%d", &n);
 

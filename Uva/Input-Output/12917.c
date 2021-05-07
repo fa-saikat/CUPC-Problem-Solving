@@ -8,11 +8,11 @@ The input consists of several test cases, each one on a single line that contain
 #include <stdio.h>
 int main()
 {
-    int P, H, O;
+    int p, h, o;
 
-    while (scanf("%d%d%d", &P, &H, &O) != EOF)
+    while (scanf("%d%d%d", &p, &h, &o) != EOF)
     {
-        printf("%d %d %d\n", P, H, O);
+        printf("%d %d %d\n", p, h, o);
     }
 
     return 0;
