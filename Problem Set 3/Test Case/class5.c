@@ -24,7 +24,7 @@ int main()
         else
         {
             printf("Odd\n");
-        } 
+        }
     }
     // int even[20], odd[20];
     // // int i=0, j=0;
@@ -49,7 +49,7 @@ int main()
     //     printf("Even: %d\n", even[i]);
 
     // }
- 
+
 
     return 0;
 }
